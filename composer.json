@@ -1,0 +1,16 @@
+{
+    "name": "wxbool/test001",
+    "description": "Is test project",
+    "type": "project",
+    "require": {
+        "houdunwang/hdphp": "*"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "wxbool",
+            "email": "641453620@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
