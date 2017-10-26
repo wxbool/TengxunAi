@@ -1,0 +1,8 @@
+{
+"name": "wxbool/test001",
+"description": "Is my project 1026",
+"type": "project",
+"license": "mit",
+"minimum-stability": "dev",
+"require": {}
+}
