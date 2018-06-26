@@ -12,7 +12,7 @@ Tengxunai 用于快速接入[`腾讯开发AI平台`](https://ai.qq.com/) 中的�
 
 使用 composer:
 
-$ composer require wxbool/tengxunai
+$ composer require wxbool/tengxunai dev-master
 
 # 3. 使用
 
