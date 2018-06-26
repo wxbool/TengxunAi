@@ -1,8 +1,20 @@
 {
-"name": "wxbool/test001",
-"description": "Is my project 1026",
-"type": "project",
-"license": "mit",
-"minimum-stability": "dev",
-"require": {}
+  "name": "wxbool/tengxunai",
+  "description": "快速接入，腾讯AI开发平台应用",
+  "type": "project",
+  "license": "mit",
+  "keywords": [
+    "tengxunai",
+    "tengxunai-sdk",
+    "sdk"
+  ],
+  "minimum-stability": "dev",
+  "require": {
+      "php": ">=5.4"
+  },
+  "autoload": {
+      "psr-4": {
+        "Tengxunai\\": "src"
+      }
+  }
 }
