@@ -30,12 +30,28 @@ class Helper {
     /**
      * 快速获取文件Base64编码数据
      * @param string $path
+     * @param bool $http
      * @return null|string
      */
-    public static function fileBase64Str($path='')
+    public static function fileBase64Str($path='' , $http = false)
     {
-        if (empty($path) || !is_file($path)) return null;
+        if (empty($path)) return null;
+        if (!$http) {
+            if (!is_file($path)) return null;
+        }
         //返回
         return base64_encode( file_get_contents($path) );
+    }
+
+
+    /**
+     * 获取base64大小[字节]
+     * @param $base64
+     * @return float|int
+     */
+    public static function getBase64FileSize($base64)
+    {
+        $slen = strlen($base64);
+        return $slen - ($slen/8)*2;
     }
 }
